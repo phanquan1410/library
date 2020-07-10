@@ -1,27 +1,62 @@
-/* html, body {
+
+/* navigation nhỏ */
+ul nav {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100vh;
-    background: black no-repeat 50% 50%;
-    background-size: cover;
+    overflow: hidden;
+    background-color: #fcba68;
 }
 
-#loader {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: 1;
-    overflow: visible;
-    background: rgb(0, 0, 0) url('2RNb.gif') no-repeat center center;
+li {
+    float: left;
 }
 
-h1 {
-    position: fixed;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(2, 2, 2);
-    font-family: poppins;
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* up ảnh */
+/* #dropbox {
+    border: 4px dashed #ccc;
+    padding-left: 8px;
+}
+
+.my-form {
+    margin-top: 10px;
+}
+
+.gallery {
+    margin: 10px;
+}
+
+.gallery img {
+    margin-left: 16px;
+}
+
+.progress-bar {
+    width: 200px;
+    position: relative;
+    height: 8px;
+    margin-top: 4px;
+}
+
+.progress-bar .progress {
+    height: 8px;
+    background-color: #ff0000;
+    width: 0;
 } */
-   
