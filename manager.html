@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel
+    <link rel="stylesheet" href="css/style.css">
     <!-- link thêm vào -->
-    <script src="http://static.fusioncharts.com/code/latest/fusioncharts.js"></script>
+    <!-- <script src="http://static.fusioncharts.com/code/latest/fusioncharts.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
 
 </head>
 
@@ -31,50 +31,13 @@
                         <h5 style="text-align: center   ;">To day a leader, tomorrow a leader</h5>
                     </div>
                     <div class="col-md-3">
-
                         <div id="clock">Loading...</div>
-                        
-                        <script type="text/javascript"> 
-                        function refrClock() {
-                        
-                        var d=new Date();
-                        
-                        var s=d.getSeconds();
-                        
-                        var m=d.getMinutes();
-                        
-                        var h=d.getHours();
-                        
-                        var day=d.getDay();
-                        
-                        var date=d.getDate();
-                        
-                        var month=d.getMonth();
-                        
-                        var year=d.getFullYear();
-                        
-                        var days=new Array("Chủ nhật","Thứ hai","Thứ 3","Thứ 4","Thứ 5","Thứ 6","Thứ 7");
-                        
-                        var months=new Array("1","2","3","4","5","6","7","8","9","10","11","12"); var am_pm;
-                        
-                        if (s<10) {s="0" + s}
-                        
-                        if (m<10) {m="0" + m}
-                        
-                        if (h>12)
-                        
-                        {h-=12;AM_PM = "PM"}
-                        
-                        else {AM_PM="AM"}
-                        
-                        if (h<10) {h="0" + h}
-                        
-                        document.getElementById("clock").innerHTML=days[day] + " Ngày " + date + "/" +months[month] + "/" + year +""   + "      [" + h + ":" + m + ":" + s + "]" + AM_PM; setTimeout("refrClock()",1000); } refrClock(); 
-                        </script>
+                        <script type="text/javascript"></script>
+                    </div>
                 </div>
             </div>
         </div>
- </div>
+        </div>
         <div class="main-menu">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -113,50 +76,7 @@
             </div>
         </div>
     </header>
-    <div class="menu-holder">
-        <div class="menu-wrapper relative">
-            <nav id="header-main-menu" style="background-color: #fcba68;">
-                <ul class="nav">
-                    <li><a href="#home">Change welcome image</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#register">Register
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#number_of_register_per_day">number of register per day</a></li>
-                            <li><a href="#number_of_register_per_week">number of register per week</a></li>
-                            <li><a href="#number_of_register_per_month">number of register per month</a></li>
-                        </ul>
-                    <li><a href="#Upload">Upload books</a></li>
-                    <li><a href="delete">Delete books</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <style>
-        ul nav {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #fcba68;
-        }
 
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            color: black;
-            font-weight: bold;
-        }
-    </style>
 
     <div class="breadcrumb">
         <div class="container">
@@ -165,21 +85,73 @@
         </div>
     </div>
     <section class="static about-sec">
-        <div class="container">
-            <div class="form">
-                <form>
+        <div class="container">     
+            <div class="wrapper">
+                <h1 style="text-align: end;width: 150%;">Cùng đăng thật nhiều sách.</h1>
+                <div class="tab tab-1">
+                    <table  id="table" border="2" >
+                        <tr>
+                            <th>Tên sách</th>
+                            <th>Giới thiệu</th>
+                            <th>Thể loại</th>
+                        </tr>
+                        <tr>
+                            <td>Lấp Lánh</td>
+                            <td>Lấp Lánh bắt mắt với cái bìa màu xanh và những con rối cầu nắng treo lơ lửng. Hình ảnh ấy của cuốn<br> sách sẽ gợi cho người đọc về một câu chuyện tươi mới và rực rỡ như ánh sáng của<br> vầng thái dương. Nhưng không, Lấp Lánh day dứt, Lấp Lánh quanh quẩn, Lấp Lánh<br> bế tắc với những con người vùng vẫy tìm cho mình một lối<br> thoát khi cuộc sống, cảm xúc bị dồn nén.<br>
+
+                                Một cô vợ nghiện rượu. Một anh chồng đồng tính. Lấp Lánh là câu chuyện<br> của gia đình ấy.
+                                
+                                Shoko thẳng thắn, hay nhõng nhẽo và <br>hờn dỗi như trẻ nhỏ. Shoko thích rượu và nghĩ mình<br> nghiện rượu nhưng bác sĩ của cô lại nói không sao cả.<br> Shoko thích tưới cây ngọc giá bằng trà (và tin chắc rằng nó thích hồng trà). <br>Shoko ghi biểu đồ thời gian cho con cá vàng bơi trong bồn tắm.<br> Shoko hát cho "người đàn ông tím" nghe.</td>
+                            <td class="messege">Lãng mạng</td>
+                        </tr>
+                        <tr>
+                            <td >Đằng sau bức tranh</td>
+                            <td>Đằng Sau Bức Tranh là cuốn tiểu thuyết kinh điển đã ăn sâu vào trái tim của biết bao thế hệ bạn đọc Thái Lan. Đó là câu chuyện tình đẹp nhất và thuần khiết nhất giữa công nương Kirati và chàng trai trẻ Nopporn. Bi kịch tình yêu giữa Nopporn và Kirati bắt nguồn từ sự khác biệt tuổi tác, từ mối quan hệ giữa một chàng sinh viên Thái Lan sang Nhật Bản du học và một phụ nữ xinh đẹp đã có chồng.</td>
+                            <td class="messege" >Kinh điển</td>
+                        </tr>
+                        
+                    </table>
+            </div>
+           
+            <div class="form" >
+               
                     <div class="addbook">
                         <!-- tên sách -->
-                        <span>Tên sách</span>
-                        <br>
+                        <span style="font-size: large;">Tên sách</span>
                         <div class="tensach">
-                            <input required>
+                            <input type="text" name="tensach" id="tensach" required>
+                            <span class="required-star">*</span>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+
+
+
+                        <span style="font-size: large;">Giới thiệu</span>
+                        <div class="introduction">
+                            <input type="text" name="introduction" id="introduction" required>
+                            <span class="required-star">*</span>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+
+
+
+                        <span style="font-size: large;">Thể loại</span>
+                        <div class="introduction">
+                            <input type="text" name="theloai" id="theloai" required>
                             <span class="required-star">*</span>
                         </div>
 
+                        
+
+
+
                         <!-- đăng ảnh -->
                         <div id="dropbox">
-                            <span>Ảnh sách</span>
+                            <span style="font-size: large;" >Ảnh sách</span>
                             <a
                                 href="https://cloudinary.com/blog/direct_upload_made_easy_from_browser_or_mobile_app_to_the_cloud">Directupload
                                 made easy from browser or mobile app to the cloud</a>
@@ -200,84 +172,38 @@
                             <div class="progress-bar" id="progress-bar">
                                 <div class="progress" id="progress"></div>
                             </div>
-                            <div id="gallery" />
+                            <div id="gallery">
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>                       
+                        <br>
+                        <br>
+                        <br>
+                        
+
+                        <!-- nội dung -->
+                        <div>
+                            <span style="font-size: large;">Nội dung sách</span>
+                            <br>
+                            <form>
+                                <div class="noidung">
+                                    <textarea></textarea>
+                                    <span class="required-star">*</span>
+                                </div>
+                            
+                            </form>
+                        </div>
+                        <br>
+                        <div style="width: 1000px;" class="col-lg-8 col-md-12">
+                            <button class="btn black btn1" onclick="addHtmlTableRow();">Upload</button>
+                            <button class="btn black btn2" style="margin-left: 80px !important;" onclick="editHtmlTbleSelectedRow();">Edit</button>
+                            <button class="btn black btn3" style="margin-left: 80px !important;" onclick="removeSelectedRow();">Remove</button>
                         </div>
                     </div>
-                    <style>
-                        #dropbox {
-                            border: 4px dashed #ccc;
-                            padding-left: 8px;
-                        }
-
-                        .my-form {
-                            margin-top: 10px;
-                        }
-
-                        .gallery {
-                            margin: 10px;
-                        }
-
-                        .gallery img {
-                            margin-left: 16px;
-                        }
-
-                        .progress-bar {
-                            width: 200px;
-                            position: relative;
-                            height: 8px;
-                            margin-top: 4px;
-                        }
-
-                        .progress-bar .progress {
-                            height: 8px;
-                            background-color: #ff0000;
-                            width: 0;
-                        }
-                    </style>
-                    <script>
-                        
-                    </script>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <!-- nội dung -->
-                    <div>
-                        <span>Nội dung sách</span>
-                        <br>
-                        <form>
-                            <div class="noidung">
-                                <textarea></textarea>
-                                <span class="required-star">*</span>
-                            </div>
-                            <style>
-                                .tensach {
-                                    width: 50%;
-                                }
-
-                                textarea {
-                                    width: 100%;
-                                    height: 300px;
-                                    padding: 12px 20px;
-                                    box-sizing: border-box;
-                                    border: 2px solid rgb(114, 111, 111);
-                                    border-radius: 4px;
-                                    background-color: #f8f8f8;
-                                    resize: none;
-
-                                }
-                            </style>
-                        </form>
-                    </div>
-                    <div class="col-lg-8 col-md-12">
-                        <button class="btn black">Upload</button>
-                    </div>
+                
             </div>
-            </form>
-        </div>
         </div>
     </section>
     <footer>
@@ -365,11 +291,10 @@
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script>
     <script type="text/javascript" src="javascript/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
-
-
-
-
+    <script src="javascript/custom.js"></script>
+    <script src="javascript/upimages.js"></script>
+    <script src="javascript/dongho.js"></script>
+    <script src="javascript/upproduct.js"></script>
 
 </body>
 
