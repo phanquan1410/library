@@ -21,7 +21,7 @@
     <!--Custom styles-->
     <link rel="stylesheet" type="text/css" href="css/dangnhap.css">
 
-
+    
 
 <body>
     <div class="container">
@@ -54,7 +54,7 @@
                             <input type="checkbox">Remember Me
                         </div>
                         <div class="form-group">
-                            <button onclick="window.location.href='cv-xinviec.html'" type="submit" value="Login" class="btn float-right login_btn">login</button>
+                            <input onclick="" type="submit" value="Login" class="btn float-right login_btn">
                         </div>
                     </form>
                 </div>
@@ -62,22 +62,18 @@
                     <div class="d-flex justify-content-center links">
                         Bạn không có tài khoản ư?<a href="registerform.html">Sign Up</a>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <a href="loginadmin.html">Bạn có phải là admin?</a>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
-
+    
     <script>
         var inputusername = document.getElementById('username');
         var inputpassword = document.getElementById('password');
 
-        var username_dung = "PhanQuan";
-        var password_dung = "31415";
-        var username_dung1 = "kimngan";
-        var password_dung1 = "12345";
+        var username_dung = "toilaadmin";
+        var password_dung = "1234";
 
         var formlogin = document.getElementById('form-login');
 
@@ -92,17 +88,15 @@
             var password = inputpassword.value;
 
             if (username == username_dung && password == password_dung) {
-               
-            }
-            if (username == username_dung1 && password == password_dung1) {
                 alert('Dang nhap thanh cong!');
+
             } else {
                 alert("that bai")
             }
 
         }
     </script>
-
+   
 </body>
 
 </html>
