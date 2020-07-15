@@ -58,9 +58,10 @@
                             </li>
                         </ul>
 
-                        
+
                         <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search here..." aria-label="Search">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search here..."
+                                aria-label="Search">
                             <span class="fa fa-search"></span>
                         </form>
                     </div>
@@ -77,6 +78,7 @@
     <section class="static about-sec">
         <div class="container">
             <div class="container">
+                <h1 style="text-align: end;width: 150%;">Hãy cho chúng tôi biết bạn muốn gì???</h1>
                 <div class="tab tab-1">
                     <table id="table" border="1">
                         <tr>
@@ -87,19 +89,26 @@
                         <tr>
                             <td>Phan Hồng Quân</td>
                             <td>vuaquanpro@gmail.com</td>
-                            <td>good job son</td>
+                            <td class="messege">good job</td>
                         </tr>
                         <tr>
                             <td>Quang Hiếu</td>
                             <td>nguyenQH@gmail.com</td>
-                            <td>okok</td>
+                            <td class="messege" >best web ever</td>
                         </tr>
                         <tr>
                             <td>Nguyễn Quang Anh</td>
                             <td>quannh0912@gmai.com</td>
-                            <td>lalalala</td>
+                            <td class="messege">Very nice</td>
                         </tr>
                     </table>
+                    <style>
+                        .messege {
+                            width: 400px;
+                            height: 50px;
+
+                        }
+                    </style>
                 </div>
                 <!-- <div class="tab tab-2">
                     Name :<input type="text" name="name" id="name">
@@ -110,99 +119,7 @@
                     <button onclick="removeSelectedRow();">Remove</button>
                 </div> -->
             </div>
-            
-            <!-- <script>
-                
-                var rIndex,
-                    table = document.getElementById("table");
-                
-                // check the empty input
-                function checkEmptyInput()
-                {
-                    var isEmpty = false,
-                        name = document.getElementById("name").value,
-                        email = document.getElementById("email").value,
-                        messege = document.getElementById("messege").value;
-                
-                    if(name === ""){
-                        alert("First Name Connot Be Empty");
-                        isEmpty = true;
-                    }
-                    else if(email === ""){
-                        alert("email Connot Be Empty");
-                        isEmpty = true;
-                    }
-                    else if(messege === ""){
-                        alert("messge Connot Be Empty");
-                        isEmpty = true;
-                    }
-                    return isEmpty;
-                }
-                
-                // add Row
-                function addHtmlTableRow()
-                {
-                    // get the table by id
-                    // create a new row and cells
-                    // get value from input text
-                    // set the values into row cell's
-                    if(!checkEmptyInput()){
-                    var newRow = table.insertRow(table.length),
-                        cell1 = newRow.insertCell(0),
-                        cell2 = newRow.insertCell(1),
-                        cell3 = newRow.insertCell(2),
-                        name  = document.getElementById("name").value,
-                        email = document.getElementById("email").value,
-                        messege = document.getElementById("messege").value;
-                
-                    cell1.innerHTML = fname;
-                    cell2.innerHTML = lname;
-                    cell3.innerHTML = age;
-                    // call the function to set the event to the new row
-                    selectedRowToInput();
-                }
-                }
-                
-                // display selected row data into input text
-                function selectedRowToInput()
-                {
-                    
-                    for(var i = 1; i < table.rows.length; i++)
-                    {
-                        table.rows[i].onclick = function()
-                        {
-                          // get the seected row index
-                          rIndex = this.rowIndex;
-                          document.getElementById("name").value = this.cells[0].innerHTML;
-                          document.getElementById("email").value = this.cells[1].innerHTML;
-                          document.getElementById("messege").value = this.cells[2].innerHTML;
-                        };
-                    }
-                }
-                selectedRowToInput();
-                
-                function editHtmlTbleSelectedRow()
-                {
-                    var name  = document.getElementById("name").value,
-                        email = document.getElementById("email").value,
-                        messege = document.getElementById("messege").value;
-                   if(!checkEmptyInput()){
-                    table.rows[rIndex].cells[0].innerHTML = fname;
-                    table.rows[rIndex].cells[1].innerHTML = lname;
-                    table.rows[rIndex].cells[2].innerHTML = age;
-                  }
-                }
-                
-                function removeSelectedRow()
-                {
-                    table.deleteRow(rIndex);
-                    // clear input text
-                    document.getElementById("name").value = "";
-                    document.getElementById("email").value = "";
-                    document.getElementById("messege").value = "";
-                }
-            </script> -->
-            </div>
+        </div>
     </section>
     <footer>
         <div class="container">
@@ -211,7 +128,7 @@
                     <div class="address">
                         <h4>Our Address</h4>
                         <h6>The BookStore Theme, 4th Store
-                        Beside that building, USA</h6>
+                            Beside that building, USA</h6>
                         <h6>Call : 800 1234 5678</h6>
                         <h6>Email : info@bookstore.com</h6>
                     </div>
@@ -245,24 +162,24 @@
                 <div class="col-md-5">
                     <div class="form">
                         <h3>Quick Contact us</h3>
-                        <h6>We are now offering some good discount 
+                        <h6>We are now offering some good discount
                             on selected books go and shop them</h6>
-                        
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" name="name" id="name" placeholder="Your name" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" name="email" id="email" placeholder="email" required>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="text" name="messege" id="messege" placeholder="messege" >
-                                </div>
-                                <div class="col-md-12">
-                                    <button class="btn black" onclick="addHtmlTableRow();">Alright, Submit</button>                           
-                                </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="name" id="name" placeholder="Your name" required>
                             </div>
-                        
+                            <div class="col-md-6">
+                                <input type="email" name="email" id="email" placeholder="email" required>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="messege" id="messege" placeholder="messege">
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn black" onclick="addHtmlTableRow();">Alright, Submit</button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -289,7 +206,7 @@
     <script src="javascript/bootstrap.min.js"></script>
     <script src="javascript/jquery.min.js"></script>
     <script type="text/javascript" src="javascript/owl.carousel.min.js"></script>
-    <script src="javascript/custom.js"></script> 
+    <script src="javascript/custom.js"></script>
     <script src="javascript/binhluan.js"></script>
     <script src="javascript/dongho.js"></script>
 </body>

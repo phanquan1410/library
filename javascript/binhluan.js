@@ -65,9 +65,9 @@ function editHtmlTbleSelectedRow() {
         email = document.getElementById("email").value,
         messege = document.getElementById("messege").value;
     if (!checkEmptyInput()) {
-        table.rows[rIndex].cells[0].innerHTML = fname;
-        table.rows[rIndex].cells[1].innerHTML = lname;
-        table.rows[rIndex].cells[2].innerHTML = age;
+        table.rows[rIndex].cells[0].innerHTML = name;
+        table.rows[rIndex].cells[1].innerHTML = email;
+        table.rows[rIndex].cells[2].innerHTML = messege;
     }
 }
 
